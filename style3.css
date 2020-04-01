@@ -1,0 +1,197 @@
+body{
+  font: 15px/1.5 Arial,Helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: gray;
+
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+
+
+
+}
+header{
+  background:crimson;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+
+  border-bottom:#e8491d 3px solid;
+  position: relative;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:18px;
+
+
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  width: 30%;
+  float:left;
+  position: relative;
+}
+
+header #branding h1{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  left: 80px;
+
+
+
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+  margin-right: 60px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+#showcase{
+  min-height: 600px;
+
+  background-image: url('images/buisness.jpg')   ;
+  background-position: center;
+  background-size: 1200px 631px;
+  background-repeat: no-repeat;
+  text-align: bottom;
+  color: #fff;
+  margin: 0;
+  /* border:  5px crimson solid; */
+  object-fit: cover;
+
+}
+
+
+#showcase:hover {
+  color: #f4f4f4;
+}
+#showcase h1{
+  margin: 0;
+  font-size: 45px;
+  position: relative;
+  right: 150px;
+  top:40px;
+  text-align: center;
+
+  padding: 0;
+
+}
+#showcase p{
+  position: relative;
+  font-size: 30px;
+  text-align: top;
+  left: 200px;
+
+
+
+}
+#showcase1{
+  margin-top: 30px;
+  min-height: 600px;
+
+  background-image: url('images/shop3.jpg')   ;
+  background-position: center;
+  background-size: 1200px 631px;
+  background-repeat: no-repeat;
+  text-align: bottom;
+  color: #fff;
+
+  /* border:  5px crimson solid; */
+  object-fit: cover;
+
+}
+
+
+
+#showcase1:hover {
+  color: #f4f4f4;
+}
+#showcase1 h1{
+  margin: 0;
+  padding: 0;
+  font-size: 55px;
+
+  color: #f4f4f4;
+  position: relative;
+  top:10px;
+  text-align: center;
+  left: 290px;
+
+
+}
+#showcase1 p{
+  position: relative;
+  font-size: 30px;
+  text-align: bottom;
+  top: 20px;
+  left: 100px;
+
+}
+#showcase2{
+  margin-top: 30px;
+  min-height: 600px;
+
+  background-image: url('images/profile.jpg')   ;
+  background-position: center;
+  background-size: 1200px 631px;
+  background-repeat: no-repeat;
+  text-align: bottom;
+  color: #fff;
+
+  /* border:  5px crimson solid; */
+  object-fit: cover;
+
+}
+
+
+
+#showcase2:hover {
+  color: #f4f4f4;
+}
+#showcase2 h1{
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+
+  color: #f4f4f4;
+  position: relative;
+  top:10px;
+  text-align: center;
+  right:120px;
+
+
+}
+#showcase2 p{
+  position: relative;
+  font-size: 30px;
+  text-align: bottom;
+  top: 20px;
+  left: 100px;
+
+}
